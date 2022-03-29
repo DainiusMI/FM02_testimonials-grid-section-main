@@ -1,0 +1,33 @@
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1rem;
+    border-radius: 10px;
+}
+.author-container {
+    display: flex;
+    flex-direction: row;    
+    gap: 1rem;
+}
+.avatar {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+.author-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+.author-status {
+    opacity: .5;
+}
+.title-area {
+    font-weight: 600;
+    margin: 0;
+}
+.article-area {    
+    opacity: .7; 
+}
